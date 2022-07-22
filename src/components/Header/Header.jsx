@@ -6,8 +6,10 @@ import { useState } from "react";
 import 'react-date-range/dist/styles.css'; // main css file
 import 'react-date-range/dist/theme/default.css'; // theme css file
 import { format } from "date-fns"
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+    const [destination, setDestination] = useState("");
     const [openDate, setOpenDate] = useState(false)
     const [date, setDate] = useState([
         {
@@ -23,6 +25,7 @@ const Header = () => {
         room: 1,
     });
 
+    const navigate = useNavigate();
 
     const handleOption = (name, operation) => {
         setOptions((prev) => {
@@ -32,6 +35,10 @@ const Header = () => {
             };
         });
     };
+
+    const handleSearch = () => {
+        navigate("/hotels", { state: { destination, date, options } });
+      };
 
     return (
         <div className="header">
