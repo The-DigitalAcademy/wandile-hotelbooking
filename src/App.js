@@ -1,8 +1,8 @@
 import * as React from "react";
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
-import List from "./pages/List/List";
-import Hotel from "./pages/home/hotel/Hotel";
+import List from "./pages/list/List";
+import Hotel from "./pages/hotel/Hotel";
 import './App.css';
 
 function App() {

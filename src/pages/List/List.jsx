@@ -6,7 +6,6 @@ import { useState } from "react";
 import { format } from "date-fns";
 import { DateRange } from "react-date-range";
 import SearchItem from "../../components/searchItem/SearchItem";
-import React from 'react'
 
 const List = () => {
   const location = useLocation();
@@ -14,6 +13,7 @@ const List = () => {
   const [date, setDate] = useState(location.state.date);
   const [openDate, setOpenDate] = useState(false);
   const [options, setOptions] = useState(location.state.options);
+
   return (
     <div>
       <Navbar />
@@ -103,4 +103,4 @@ const List = () => {
   );
 };
 
-export default List
+export default List;
