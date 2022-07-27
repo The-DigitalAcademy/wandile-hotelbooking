@@ -9,9 +9,9 @@ import { format } from "date-fns";
 import { useNavigate } from 'react-router-dom'; 
 
 
-const Header = () => {
+const Header = ({ type }) => {
     const [destination, setDestination] = useState("");
-    const [openDate, setOpenDate] = useState(false)
+    const [openDate, setOpenDate] = useState(false);
     const [date, setDate] = useState([
         {
             startDate: new Date(),
@@ -43,7 +43,7 @@ const Header = () => {
 
     return (
         <div className="header">
-            <div className="headerContainer">
+            <div className={type === "list" ? "headerContainer listMode" : "headerContainer"}>
                 <div className="headerList">
                     <div className="headerListItem active">
                         <FontAwesomeIcon icon={faBed} />
@@ -93,6 +93,7 @@ const Header = () => {
                             moveRangeOnFirstSelection={false}
                             ranges={date}
                             classNames="date"
+                            minDate={new Date()}
                         />}
                     </div>
                     <div className="headerSearchItem">
