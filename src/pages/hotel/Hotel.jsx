@@ -83,16 +83,16 @@ const Hotel = () => {
         )}
         <div className="hotelWrapper">
           <button className="bookNow">Reserve or Book Now!</button>
-          <h1 className="hotelTitle">Tower Street Apartments</h1>
+          <h1 className="hotelTitle">Garden Court South Beach</h1>
           <div className="hotelAddress">
             <FontAwesomeIcon icon={faLocationDot} />
-            <span>Elton St 125 New york</span>
+            <span>73 OR Tambo Parade, Durban, South Africa, 4001</span>
           </div>
           <span className="hotelDistance">
-            Excellent location – 500m from center
+            Excellent location – A two-minute walk from the beach
           </span>
           <span className="hotelPriceHighlight">
-            Book a stay over $114 at this property and get a free airport taxi
+            Book a stay over R1 893 at this property and get a free airport taxi
           </span>
           <div className="hotelImages">
             {photos.map((photo, i) => (
@@ -110,17 +110,13 @@ const Hotel = () => {
             <div className="hotelDetailsTexts">
               <h1 className="hotelTitle">Stay in the heart of City</h1>
               <p className="hotelDesc">
-                Located a 5-minute walk from St. Florian's Gate in Krakow, Tower
-                Street Apartments has accommodations with air conditioning and
-                free WiFi. The units come with hardwood floors and feature a
-                fully equipped kitchenette with a microwave, a flat-screen TV,
-                and a private bathroom with shower and a hairdryer. A fridge is
-                also offered, as well as an electric tea pot and a coffee
-                machine. Popular points of interest near the apartment include
-                Cloth Hall, Main Market Square and Town Hall Tower. The nearest
-                airport is John Paul II International Kraków–Balice, 16.1 km
-                from Tower Street Apartments, and the property offers a paid
-                airport shuttle service.
+                A two-minute walk from the beach, a short drive to the Durban ICC, and perfectly positioned near family-favourites like Suncoast and uShaka Marine World, Garden Court South Beach is one of the most popular hotels on the Durban beachfront.
+
+                Our Durban beach hotel’s 414 en-suite rooms are equipped with uncapped WiFi, space to work, air-conditioning, DStv, sea or city views, and double, queen or twin-double options – making them perfect for all types of traveller.
+
+                Spend the day in the hotel’s pool or on the beach, head to Spur for great all-day dining, and stay productive at our self-service workstations. A 12-seater boardroom is perfect for small meetings, while the Malibu Room can host events for up to 250 delegates. Breakfast is included in room rates, and two kids under 18 can stay for free when sharing with adults.
+
+                Join our Rewards programme - sign up is FREE and easy – or sign-in to qualify for the Best Rate Guarantee, an exclusive member discount applicable to online bookings.
               </p>
             </div>
             <div className="hotelDetailsPrice">
@@ -130,7 +126,7 @@ const Hotel = () => {
                 excellent location score of 9.8!
               </span>
               <h2>
-                <b>$945</b> (9 nights)
+                <b>R7 641</b> (9 nights)
               </h2>
               <button>Reserve or Book Now!</button>
             </div>
