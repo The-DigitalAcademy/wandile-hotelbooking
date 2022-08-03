@@ -1,8 +1,17 @@
+// import useFetch from "../../hooks/useFetch";
 import "./featured.css";
 
 const Featured = () => {
+  // const { data, loading, error } = useFetch(
+  //   "/hotels/countByCity?cities=johannesburg,durban,cape town"
+  // );
+
   return (
     <div className="featured">
+      {/* {loading ? (
+        "Loading please wait"
+      ) : ( */}
+        <>
       <div className="featuredItem">
         <img
           src="https://www.andbeyond.com/wp-content/uploads/sites/5/Johannesburg-Skyline.jpg"
@@ -37,6 +46,8 @@ const Featured = () => {
           <h2>532 properties</h2>
         </div>
       </div>
+      </>
+      {/* )} */}
     </div>
   );
 };

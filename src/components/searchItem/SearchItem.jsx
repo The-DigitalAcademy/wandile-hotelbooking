@@ -29,7 +29,7 @@ const SearchItem = () => {
           <button>8.9</button>
         </div>
         <div className="siDetailTexts">
-          <span className="siPrice">$112</span>
+          <span className="siPrice">R1 3127</span>
           <span className="siTaxOp">Includes taxes and fees</span>
           <button className="siCheckButton">See availability</button>
         </div>
@@ -37,5 +37,7 @@ const SearchItem = () => {
     </div>
   );
 };
+
+
 
 export default SearchItem;
