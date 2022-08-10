@@ -63,7 +63,7 @@ const Header = ({ type }) => {
             </div>
             <div className="headerListItem">
               <FontAwesomeIcon icon={faBed} />
-              <span>Attractions</span>
+              <span>Accommodations</span>
             </div>
             <div className="headerListItem">
               <FontAwesomeIcon icon={faTaxi} />
