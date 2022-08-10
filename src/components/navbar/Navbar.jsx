@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navContainer">
-                <span className="logo">iambooking</span>
+                <span className="logo">iamWandile'sbooking</span>
                 <div className="navItems">
                 {/* <button className="navButton">Register</button> */}
                 <button  className="navButton">Login / Sign in</button>
