@@ -54,20 +54,28 @@ const Header = ({ type }) => {
               <span>Stays</span>
             </div>
             <div className="headerListItem">
+            <div className="headerListItem active"> 
               <FontAwesomeIcon icon={faPlane} />
               <span>Flights</span>
+              </div>
             </div>
             <div className="headerListItem">
+            <div className="headerListItem active">
               <FontAwesomeIcon icon={faCar} />
               <span>Car rentals</span>
+              </div>
             </div>
             <div className="headerListItem">
+            <div className="headerListItem active">
               <FontAwesomeIcon icon={faBed} />
               <span>Accommodations</span>
+              </div>
             </div>
             <div className="headerListItem">
+            <div className="headerListItem active">
               <FontAwesomeIcon icon={faTaxi} />
               <span>Airport taxis</span>
+            </div>
             </div>
           </div>
           {type !== "list" && (
