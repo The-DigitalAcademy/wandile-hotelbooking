@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/wandile-hotelbooking/static/css/main.d022d0c1.css",
-    "main.js": "/wandile-hotelbooking/static/js/main.da4fd4e1.js",
+    "main.js": "/wandile-hotelbooking/static/js/main.bd18d5a4.js",
     "index.html": "/wandile-hotelbooking/index.html",
     "main.d022d0c1.css.map": "/wandile-hotelbooking/static/css/main.d022d0c1.css.map",
-    "main.da4fd4e1.js.map": "/wandile-hotelbooking/static/js/main.da4fd4e1.js.map"
+    "main.bd18d5a4.js.map": "/wandile-hotelbooking/static/js/main.bd18d5a4.js.map"
   },
   "entrypoints": [
     "static/css/main.d022d0c1.css",
-    "static/js/main.da4fd4e1.js"
+    "static/js/main.bd18d5a4.js"
   ]
 }
