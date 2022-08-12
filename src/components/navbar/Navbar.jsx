@@ -1,4 +1,5 @@
 import "./navbar.css"
+import { Link } from "react-router-dom";
 // import { useRouter } from "react-router-dom";
 
 const Navbar = () => {
@@ -16,7 +17,7 @@ const Navbar = () => {
                 <span className="logo">iamWandile'sbooking</span>
                 <div className="navItems">
                 {/* <button className="navButton">Register</button> */}
-                <button  className="navButton">Login / Sign in</button>
+                <Link to='/login'><button  className="navButton">Login / Sign in</button></Link>
                 </div>
             </div>
         </div>

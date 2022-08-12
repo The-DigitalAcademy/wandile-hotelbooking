@@ -4,12 +4,14 @@ import Home from "./pages/home/Home";
 import List from "./pages/list/List";
 import Hotel from "./pages/hotel/Hotel";
 import Login from "./pages/login/Login";
+// import Navbar from "./components/navbar/Navbar";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hotels" element={<List />} />
