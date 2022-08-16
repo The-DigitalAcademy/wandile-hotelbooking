@@ -41,9 +41,9 @@ const Header = ({ type }) => {
       navigate("/hotels", { state: { destination, date, options } });
     };
 
-    const goTo = (path) =>{
-      navigate(path, {replace: true});
-    };
+    // const goTo = (path) =>{
+    //   navigate(path, {replace: true});
+    // };
   
     return (
       <div className="header">
@@ -91,7 +91,7 @@ const Header = ({ type }) => {
                 Get rewarded for your travels – unlock instant savings of 10% or
                 more with a free IamWandile'sbooking account
               </p>
-              <button onClick={() => goTo("/register")} className="headerBtn">Register</button>
+              {/* <button onClick={() => goTo("/register")} className="headerBtn">Register</button> */}
               <div className="headerSearch">
                 <div className="headerSearchItem">
                   <FontAwesomeIcon icon={faBed} className="headerIcon" />
@@ -147,7 +147,7 @@ const Header = ({ type }) => {
                             className="optionCounterButton"
                             onClick={() => handleOption("adult", "i")}
                           >
-                            +
+                            
                           </button>
                         </div>
                       </div>
