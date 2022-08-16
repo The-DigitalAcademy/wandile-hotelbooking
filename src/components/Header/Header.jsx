@@ -40,6 +40,10 @@ const Header = ({ type }) => {
     const handleSearch = () => {
       navigate("/hotels", { state: { destination, date, options } });
     };
+
+    const goTo = (path) =>{
+      navigate(path, {replace: true});
+    };
   
     return (
       <div className="header">
@@ -87,7 +91,7 @@ const Header = ({ type }) => {
                 Get rewarded for your travels – unlock instant savings of 10% or
                 more with a free IamWandile'sbooking account
               </p>
-              <button className="headerBtn">Register</button>
+              <button onClick={() => goTo("/register")} className="headerBtn">Register</button>
               <div className="headerSearch">
                 <div className="headerSearchItem">
                   <FontAwesomeIcon icon={faBed} className="headerIcon" />
