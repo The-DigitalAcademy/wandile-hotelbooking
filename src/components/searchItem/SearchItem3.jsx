@@ -1,16 +1,16 @@
 import "./searchItem.css";
 
-const SearchItem = () => {
+const SearchItem3 = () => {
   return (
     <div className="searchItem">
       <img
-        src="https://cf.bstatic.com/xdata/images/hotel/square600/261707778.webp?k=fa6b6128468ec15e81f7d076b6f2473fa3a80c255582f155cae35f9edbffdd78&o=&s=1"
+        src="https://cache.marriott.com/content/dam/marriott-renditions/DURUM/durum-guestroom-0038-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*"
         alt=""
         className="siImg"
       />
       <div className="siDesc">
-        <h1 className="siTitle">Johannesburg Tower Street Apartments</h1>
-        <span className="siDistance">500m from center</span>
+        <h1 className="siTitle">Durban Apartments</h1>
+        <span className="siDistance">538m from center</span>
         <span className="siTaxiOp">Free airport taxi</span>
         <span className="siSubtitle">
           Studio Apartment with Air conditioning
@@ -26,10 +26,10 @@ const SearchItem = () => {
       <div className="siDetails">
         <div className="siRating">
           <span>Excellent</span>
-          <button>8.9</button>
+          <button>8.8</button>
         </div>
         <div className="siDetailTexts">
-          <span className="siPrice">R1 3127</span>
+          <span className="siPrice">R1 4136</span>
           <span className="siTaxOp">Includes taxes and fees</span>
           <button className="siCheckButton">See availability</button>
         </div>
@@ -42,4 +42,4 @@ const SearchItem = () => {
 
 
 
-export default SearchItem;
+export default SearchItem3;
