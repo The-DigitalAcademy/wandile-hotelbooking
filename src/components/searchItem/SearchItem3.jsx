@@ -4,7 +4,7 @@ const SearchItem3 = () => {
   return (
     <div className="searchItem">
       <img
-        src="https://cache.marriott.com/content/dam/marriott-renditions/DURUM/durum-guestroom-0038-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*"
+        src="https://cf.bstatic.com/xdata/images/xphoto/max1440/48387109.jpg?k=67c138c6f8e7e417f75408a16083dfb2f4b3d1a855af6686c3f46ea5d63890c4&o="
         alt=""
         className="siImg"
       />

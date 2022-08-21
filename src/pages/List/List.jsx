@@ -10,7 +10,7 @@ import SearchItem from "../../components/searchItem/SearchItem";
 import SearchItem2 from "../../components/searchItem/SearchItem2";
 import SearchItem3 from "../../components/searchItem/SearchItem3";
 import SearchItem4 from "../../components/searchItem/SearchItem4";
-// import SearchItem5 from "../../components/searchItem/SearchItem5";
+import SearchItem5 from "../../components/searchItem/SearchItem5";
 // import SearchItem6 from "../../components/searchItem/SearchItem6";
 // import SearchItem7 from "../../components/searchItem/SearchItem7";
 // import SearchItem8 from "../../components/searchItem/SearchItem8";
@@ -100,8 +100,8 @@ const List = () => {
             <SearchItem2 />
             <SearchItem3 />
             <SearchItem4 />
-            {/* <SearchItem5 />
-            <SearchItem6 />
+            <SearchItem5 />
+            {/* <SearchItem6 />
             <SearchItem7 />
             <SearchItem8 />
             <SearchItem9 /> */}
