@@ -9,14 +9,15 @@ const SearchItem2 = () => {
         className="siImg"
       />
       <div className="siDesc">
-        <h1 className="siTitle">Cape Town Apartments</h1>
+        <h1 className="siTitle">Cape Town City Center</h1>
         <span className="siDistance">610m from center</span>
         <span className="siTaxiOp">Free airport taxi</span>
         <span className="siSubtitle">
-          Studio Apartment with Air conditioning
+          Bedroom Apartment with Air-conditioning • Fast, fibre Wi-Fi
+          • Weekly cleaning by our on-site team
         </span>
         <span className="siFeatures">
-          Entire studio • 2 bathroom • 21m² 2 full bed
+          2 Bedroom • 2 bathroom • 35m² 2 full bed
         </span>
         <span className="siCancelOp">Free cancellation </span>
         <span className="siCancelOpSubtitle">
@@ -29,7 +30,7 @@ const SearchItem2 = () => {
           <button>9.0</button>
         </div>
         <div className="siDetailTexts">
-          <span className="siPrice">R1 4136</span>
+          <span className="siPrice">R1 413.63</span>
           <span className="siTaxOp">Includes taxes and fees</span>
           <button className="siCheckButton">See availability</button>
         </div>

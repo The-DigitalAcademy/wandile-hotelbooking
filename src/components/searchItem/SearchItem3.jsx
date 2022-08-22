@@ -9,14 +9,15 @@ const SearchItem3 = () => {
         className="siImg"
       />
       <div className="siDesc">
-        <h1 className="siTitle">Durban Apartments</h1>
+        <h1 className="siTitle">Durban Apartment</h1>
         <span className="siDistance">538m from center</span>
         <span className="siTaxiOp">Free airport taxi</span>
         <span className="siSubtitle">
-          Studio Apartment with Air conditioning
+          Studio Apartment with Air-conditioning • 
+          Fibre Internet connectivity • 24H Top of the range security
         </span>
         <span className="siFeatures">
-          Entire studio • 1 bathroom • 21m² 1 full bed
+          2 Bedroom Apartment • 1 bathroom • 51m² 1 full bed
         </span>
         <span className="siCancelOp">Free cancellation </span>
         <span className="siCancelOpSubtitle">
@@ -29,7 +30,7 @@ const SearchItem3 = () => {
           <button>8.8</button>
         </div>
         <div className="siDetailTexts">
-          <span className="siPrice">R1 3106</span>
+          <span className="siPrice">R1 310.67</span>
           <span className="siTaxOp">Includes taxes and fees</span>
           <button className="siCheckButton">See availability</button>
         </div>

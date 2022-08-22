@@ -11,12 +11,13 @@ const SearchItem = () => {
       <div className="siDesc">
         <h1 className="siTitle">Johannesburg Tower Street Apartments</h1>
         <span className="siDistance">500m from center</span>
-        <span className="siTaxiOp">Free airport taxi</span>
+        <span className="siTaxiOp">Close To Public Transport</span>
         <span className="siSubtitle">
-          Studio Apartment with Air conditioning
+        Free Wifi • Intercom To Each Flat • Prepaid Electricity
+        24 Hour Security • Fully Equipped Gym
         </span>
         <span className="siFeatures">
-          Entire studio • 1 bathroom • 21m² 1 full bed
+        Modern Room • 1 bathroom • 21m² 1 full bed
         </span>
         <span className="siCancelOp">Free cancellation </span>
         <span className="siCancelOpSubtitle">
@@ -29,7 +30,7 @@ const SearchItem = () => {
           <button>8.9</button>
         </div>
         <div className="siDetailTexts">
-          <span className="siPrice">R1 3127</span>
+          <span className="siPrice">R1 312.79</span>
           <span className="siTaxOp">Includes taxes and fees</span>
           <button className="siCheckButton">See availability</button>
         </div>

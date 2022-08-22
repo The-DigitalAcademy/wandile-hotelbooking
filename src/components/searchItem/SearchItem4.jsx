@@ -10,13 +10,13 @@ const SearchItem4 = () => {
       />
       <div className="siDesc">
         <h1 className="siTitle">Sandton Apartments</h1>
-        <span className="siDistance">538m from center</span>
+        <span className="siDistance">428m from center</span>
         <span className="siTaxiOp">Free airport taxi</span>
         <span className="siSubtitle">
-          Studio Apartment with Air conditioning
+          Studio Apartment with Air conditioning • Security • Wi-fi & Internet
         </span>
         <span className="siFeatures">
-          Entire studio • 1 bathroom • 21m² 1 full bed
+        Brand New & Modern • 1 bathroom • 32m² 1 full bed
         </span>
         <span className="siCancelOp">Free cancellation </span>
         <span className="siCancelOpSubtitle">
@@ -29,7 +29,7 @@ const SearchItem4 = () => {
           <button>8.7</button>
         </div>
         <div className="siDetailTexts">
-          <span className="siPrice">R1 5869</span>
+          <span className="siPrice">R1 586.96</span>
           <span className="siTaxOp">Includes taxes and fees</span>
           <button className="siCheckButton">See availability</button>
         </div>

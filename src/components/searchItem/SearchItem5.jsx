@@ -13,10 +13,10 @@ const SearchItem5 = () => {
         <span className="siDistance">538m from center</span>
         <span className="siTaxiOp">Free airport taxi</span>
         <span className="siSubtitle">
-          Studio Apartment with Air conditioning
+        Uncapped WiFi • Air-conditioning • DStv channels
         </span>
         <span className="siFeatures">
-          Standard Rom • 1 bathroom • 21m² 1 comfy double bed
+          Standard Room • 1 bathroom • 21m² 1 comfy double bed
         </span>
         <span className="siCancelOp">Free cancellation </span>
         <span className="siCancelOpSubtitle">
@@ -29,7 +29,7 @@ const SearchItem5 = () => {
           <button>9.3</button>
         </div>
         <div className="siDetailTexts">
-          <span className="siPrice">R1 6400</span>
+          <span className="siPrice">R1 640.00</span>
           <span className="siTaxOp">Includes taxes and fees</span>
           <button className="siCheckButton">See availability</button>
         </div>
