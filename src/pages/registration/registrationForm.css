@@ -5,17 +5,17 @@ body{
 }
 
 .form{
-    background-color: #003580;
+    background-color: #1759b7;
     border-radius: 5px;
-    width: 550px;
+    width: 405px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 30px;
     /* height: 600px; */
 }
 
 .form-body{
-    text-align: left;
-    padding: 20px 10px;
+    text-align: right;
+    padding: 30px 20px;
 }
 
 .form-body > *{
@@ -23,11 +23,12 @@ body{
 }
 
 .form__label{
-    width: 40%;
+    margin-right: 40px;
+    width: 20%;
 }
 
 .form_input{
-    width: 60%;
+    width: 10%;
 }
 
 .footer{
