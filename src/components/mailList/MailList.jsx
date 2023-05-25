@@ -10,7 +10,7 @@ const MailList = () => {
         <button>Subscribe</button>
       </div>
       <br2></br2>
-      <div className="fText">Copyright © 2022 Digital Academy - Wandile Maluleke. All Rights Reserved</div>
+      <div className="fText">Copyright © 2023 Digital Academy - Wandile Maluleke. All Rights Reserved</div>
     </div>
   );
 };
