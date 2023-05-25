@@ -9,7 +9,7 @@ const MailList = () => {
         <input type="text" placeholder="Your Email" />
         <button>Subscribe</button>
       </div>
-      <br2></br2>
+      <br></br>
       <div className="fText">Copyright © 2023 Digital Academy - Wandile Maluleke. All Rights Reserved</div>
     </div>
   );
