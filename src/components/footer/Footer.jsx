@@ -33,7 +33,7 @@ const Footer = () => {
           <li className="fListItem">Terms & conditions</li>
         </ul>
       </div>
-      <div className="fText">Copyright © 2022 Digital Academy - Wandile Maluleke. All Rights Reserved</div>
+      <div className="fText">Copyright © 2023 Digital Academy - Wandile Maluleke. All Rights Reserved</div>
     </div>
   );
 };
